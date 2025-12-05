@@ -10,6 +10,6 @@ echo "Kemaskini nama"
 sed -i "s/{{NAMA}}/${NAMA}/g" index.html
 
 echo "Kemaskini tarikh"
-sed -i "s/{{TARIKH}}/${TARIKH}/g" index.html
+sed -i "s/{{TARIKH}}/5.12.2025/g" index.html
 
 echo "Deploy selesai: ${TARIKH}"
